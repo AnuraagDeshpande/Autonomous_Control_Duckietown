@@ -1,7 +1,7 @@
 This project was completed as a group of 3 as a part of a semester-long Robotics and Intelligent Systems Project at Constructor University. The main objective of this lab was to implement a white line detection algorithm along with speed control, to make the duckiebot follow white lines throughout the duckietown map. For this purpose, white line detection was implemented using based on HSV Thresholding and Probablistic Hough Transform. Position and orientation errors were calculated from detected lines, and subsequently using the error as feedback for a proportional controller, we were able to achieve smooth line following. Collaborating with my teammate Ziyu Gu for line detection, I particularly contributed in the research and implementation of probabilistic hough transform, along with some fine-tunings for improved line detection. Key findings from this project include the importance and role of image processing and thresholding for line detection and a proportional controller for stability and easy small-scale modification.
 
 Steps to run this project:
-
+-
 Fork the repository
 
 Clone or fork the project repository containing the white line detection node.
